@@ -1,0 +1,118 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+footer, header, footer, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  border: solid #adff2f 5px;
+  border-radius: 10px;
+  margin: 7px;
+  padding: 7px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+header, footer {
+  background-color: #333333;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img, footer img {
+  height: 120px;
+}
+
+footer {
+  background-color: #222222;
+}
+
+.seccion1, .seccion2 {
+  display: -ms-grid;
+  display: grid;
+  padding: 25px;
+  margin: 25px;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.seccion1 a, .seccion2 a {
+  padding: 5px;
+  justify-items: center;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.seccion1 {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.seccion2 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+header, footer, footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+.tituloSeccion {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.titulo, h2 {
+  color: #adff2f;
+}
+
+.carrusel img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
